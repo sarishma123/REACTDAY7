@@ -1,0 +1,26 @@
+.foodmenubody{
+    display:"flex";
+    gap:"30px";
+    padding:"20px";
+    justify-content:centre;
+    flex-wrap:wrap;
+}
+.menucard{
+    width:250px;
+    border:1px solid #c6b9b9;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:2px 2px 5px rgb(39, 38, 38);
+    transition:0.9sec all ease;
+    overflow:hidden;
+}
+.menucard:hover{
+    background:rgb(76, 74, 58);
+    box-shadow:4px 4px 10px;
+    border:2px solid rgb(36, 5, 5);
+    transform:scale(1.6);
+
+
+
+
+}
